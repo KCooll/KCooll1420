@@ -1,0 +1,698 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Noto-Sans', sans-serif;
+    font-size: 14px;
+    background-color:oldlace;
+}
+/* First */
+.First{
+    width: 1580px;
+    height: 800px;
+    position: absolute;
+}
+.header #logo_hotel{
+    float: left;
+    width: 8%;
+    margin-left: 55px;
+    display: block;
+    width: 400px;
+}
+.menu ul{
+    margin: 0px 15px;
+    padding: 48px;
+    text-align: right;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 0px 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight:bold;
+}
+a:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color: #341f97;
+    font-weight:bold;
+}
+
+.bt1:hover{
+    background-color: white;
+}
+.bt1{
+    padding: 5px;
+    background: rgb(68, 68, 68); /* Fallback color */
+    background: rgba(158, 158, 158, 0.1);
+    border: 1px white solid;
+    padding: 18px;
+    border-radius: 50%;
+    margin-top: 16px;
+}
+/* Second */
+#hinh1{
+    width: 1583px;
+    background-position: center;
+}
+table{
+    width: 500px;
+}
+#hinh2{
+    width: 1000px;
+}
+.box2{
+    display: flex;
+    margin: auto;
+}
+.table1{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#hinh3{
+    position: absolute;
+    margin-left: 995px;
+    margin-top: 94px;
+    width: 550px;
+    height: 600px;
+    opacity: 0.2;
+}
+.table1 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.table1 p{
+    font-size: 28px;
+    text-align: justify;
+    margin-right: 15px;
+}
+
+.box3{
+    display: block;
+}
+.table4{
+    margin-left: 15px;
+}
+.table4 h1{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.table4 p{
+    position:absolute;
+    font-size: 28px;
+    text-align: justify;
+    margin-top: 140px;
+    margin-left: 30px;
+    width: 650px;
+}
+.table2{
+    display: block;
+    margin-left: 768px;
+}
+#phong1{
+    width: 400px;
+    height: 300px;
+    filter:opacity(0.8);
+    filter: contrast(1.5);
+    filter: brightness(0.8);
+}
+#phong1:hover{
+    width: 400px;
+    height: 300px;
+    filter: contrast(1.5);
+    filter: brightness(1);
+    opacity: 1;
+}
+#phong2{
+    width: 400px;
+    height: 300px;
+    filter:opacity(0.8);
+    filter: contrast(1.5);
+    filter: brightness(0.8);
+}
+#phong2:hover{
+    width: 400px;
+    height: 300px;
+    filter: contrast(1.5);
+    filter: brightness(1);
+    opacity: 1;
+}
+#phong3{
+    width: 400px;
+    height: 300px;
+    filter:opacity(0.8);
+    filter: contrast(1.5);
+    filter: brightness(0.8);
+}
+#phong3:hover{
+    width: 400px;
+    height: 300px;
+    filter: contrast(1.5);
+    filter: brightness(1);
+    opacity: 1;
+}
+#phong4{
+    width: 400px;
+    height: 300px;
+    filter:opacity(0.8);
+    filter: contrast(1.5);
+    filter: brightness(0.8);
+}
+#phong4:hover{
+    width: 400px;
+    height: 300px;
+    filter: contrast(1.5);
+    filter: brightness(1);
+    opacity: 1;
+}
+#hinh4{
+    position: absolute;
+    width: 300px;
+    margin-top: 300px;
+    opacity: 0.5;
+}
+.bt3{
+    position:absolute;
+    margin: 320px 0px 0px 300px;
+    width: 300px;
+    height: 50px;
+    background-color:sienna;
+}
+.bt3:hover{
+    position:absolute;
+    margin: 320px 0px 0px 300px;
+    width: 300px;
+    height: 50px;
+    background-color: orange;
+}
+#datphong_bt{
+    font-size: 28px;
+    color: white;
+}
+#datphong_bt:hover{
+    font-size: 28px;
+    color: darkblue;
+}
+#click_datphong{
+    position:absolute;
+    width: 200px;
+    margin: 360px;
+}
+.table5{
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 1050px;
+}
+.table5 h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.table5 p{
+    position:absolute;
+    font-size: 28px;
+    text-align: justify;
+}
+/* footter */
+#hinh_footer{
+    width: 1583px;
+    height: 120px;
+}
+.menu-footer ul{
+    position: absolute;
+    bottom: 15px;
+    margin-left: 30px;
+}
+.footer{
+    position: absolute;
+}
+.menu-footer ul li{
+    display: inline;
+    padding: 0px 5px;
+}
+.hotline{
+    position: absolute;
+    width: 260px;
+    height: 104px;
+    bottom: 1px;
+}
+.mxh{
+    width: 50px;
+}
+/* --- */
+/* gioithieu.html */
+.box-1{
+    max-width: 1600px; /* Maximum width */
+    max-height: 850px;
+}
+.box-gioithieu p{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 180px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.6 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 1200px; /* Full width */
+    height: 600px;
+    padding: 20px; /* Some padding */
+    margin-left: 195px;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 10px;
+}
+#gioithieu{
+    text-decoration: none;
+    font-size: 20px;
+    color: #f1f1f1;
+}
+#gioithieu:hover{
+    text-decoration: none;
+    font-size: 20px;
+    color:aquamarine;
+}
+.box-2{
+    max-width: 1600px; /* Maximum width */
+    max-height: 850px;
+}
+/* quydinh.html */
+.box-quydinh #p1{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 150px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.6 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 800px; /* Full width */
+    height: 690px;
+    padding: 19px 10px 19px 10px; /* Some padding */
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 380px;
+    overflow-y: scroll;
+}
+#quydinh{
+    text-decoration: none;
+    font-size: 18px;
+    color: #f1f1f1;
+}
+#quydinh:hover{
+    text-decoration: none;
+    font-size: 18px;
+    color:aquamarine;
+}
+/* thucdon.html */
+.table-thucdon{
+    position: absolute;
+    margin-top: 180px;
+    display: block;
+    padding: 0px auto;
+    margin-left: 200px;
+}
+.table-thucdon h1{
+    color: red;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.table-thucdon h1:hover{
+    color: blue;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.sang1{
+    width: 600px;
+    height: 400px;
+    filter: opacity(1);
+    filter: contrast(1.5);
+    filter: brightness(0.9);
+}
+.sang1:hover{
+    width: 600px;
+    height: 400px;
+    filter: contrast(1.8);
+    filter: brightness(1.1);
+    opacity: 1;
+}
+.sang2{
+    width: 600px;
+    height: 400px;
+    filter: opacity(1);
+    filter: contrast(1.5);
+    filter: brightness(0.9);
+}
+.sang2:hover{
+    width: 600px;
+    height: 400px;
+    filter: contrast(1.8);
+    filter: brightness(1.1);
+    opacity: 1;
+}
+.trua{
+    width: 600px;
+    height: 400px;
+    filter: opacity(1);
+    filter: contrast(1.5);
+    filter: brightness(0.9);
+}
+.trua:hover{
+    width: 600px;
+    height: 400px;
+    filter: contrast(1.8);
+    filter: brightness(1.1);
+    opacity: 1;
+}
+.chieu{
+    width: 600px;
+    height: 400px;
+    filter: opacity(1);
+    filter: contrast(1.5);
+    filter: brightness(0.9);
+}
+.chieu:hover{
+    width: 600px;
+    height: 400px;
+    filter: contrast(1.8);
+    filter: brightness(1.1);
+    opacity: 1;
+}
+.toi{
+    width: 600px;
+    height: 400px;
+    filter: opacity(1);
+    filter: contrast(1.5);
+    filter: brightness(0.9);
+}
+.toi:hover{
+    width: 600px;
+    height: 400px;
+    filter: contrast(1.8);
+    filter: brightness(1.1);
+    opacity: 1;
+}
+#hinh_footer1{
+    width: 1510px;
+    height: 120px;
+}
+/* bosuutap.html */
+.slideshow-container {
+    max-width: 1620px;
+    position: relative;
+    margin: auto;
+  }
+.box-suutap{
+    width: 1575px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 2px;
+}
+  /* Hide the images by default */
+.mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+.img-view{
+    width: 1575px;
+    height: 900px;
+}
+  
+  /* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 3px;
+    width: 1575px;
+    text-align: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.6 opacity */
+    color: #f1f1f1; /* Grey text */
+  }
+  
+  /* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+.active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+#box-text{
+    width: 500px;
+    position: absolute; 
+    margin-top: 250px; 
+    margin-left: 980px;
+    margin-right: 80px;
+    text-align: justify;
+    padding: 20px 30px;
+    font-weight: normal;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.6 opacity */
+    color: #f1f1f1; /* Grey text */
+    font-size: 22px;
+}
+.table-suutap{
+    position: absolute;
+    margin-top: 1180px;
+    margin-left: 80px;
+}
+.view{
+    width: 280px;
+    height: 180px;
+    filter: opacity(1);
+    filter: contrast(1.5);
+    filter: brightness(0.9);
+}
+.view:hover{
+    width: 281px;
+    height: 181px;
+    filter: contrast(1.8);
+    filter: brightness(1.1);
+    opacity: 1;
+}
+.table-suutap2{
+    position: absolute;
+    margin-top: 1400px;
+    margin-left: 80px;
+    padding-bottom: 35px;
+}
+.bt-view1{
+    width:fit-content;
+}
+.footer-suutap{
+    position: fixed;
+    bottom: 5px;
+    left: 18px;
+}
+.footer-suutap ul li{
+    list-style-type: none;
+}
+.footer-suutap ul li img{
+    width: 50px;
+}
+/* datphong.php */
+.box-datphong{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 160px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.6); /* Black background with 0.6 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 620px; /* Full width */
+    height: 680px;
+    padding: 20px; /* Some padding */
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    overflow-y: scroll;
+    border-radius: 10px;
+}
+form ul li{
+    list-style-type: none;
+}
+.textbox{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+.text-hoten{
+    width: 400px;
+    height: 30px;
+    margin-left: 65px;
+    font-size: 16px;
+}
+.text-ngaysinh{
+    width: 300px;
+    height: 30px;
+    margin-left: 35px;
+    font-size: 16px;
+}
+.text-dienthoai{
+    width: 300px;
+    height: 30px;
+    margin-left: 8px;
+    font-size: 16px;
+}
+.text-cmnd{
+    width: 300px;
+    height: 30px;
+    margin-left: 2px;
+    font-size: 16px;
+}
+.email{
+    width: 300px;
+    height: 30px;
+    margin-left: 75px;
+    font-size: 16px;
+}
+.selphong{
+    height: 30px;
+    margin-left: 27px;
+    font-size: 16px;
+}
+.text-ngaynhan{
+    width: 300px;
+    height: 30px;
+    margin-left: 30px;
+    font-size: 16px;
+}
+.text-ngaytra{
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.selnganhang{
+    height: 30px;
+    margin-left: 27px;
+    font-size: 16px;
+}
+.text-sotaikhoan{
+    width: 300px;
+    height: 30px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+.textbox-dangky{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 400px;
+}
+.dangky{
+    width: 100px;
+    height: 40px;
+}
+.box-datphong3{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 160px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.7 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 620px; /* Full width */
+    height: 680px;
+    padding: 20px; /* Some padding */
+    margin-left: 850px;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 10px;
+}
+/* dangky.php */
+.box-datphong2{
+    position: absolute; /* Position the background text */
+    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+    top: 160px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.7); /* Black background with 0.7 opacity */
+    color: #f1f1f1; /* Grey text */
+    width: 620px; /* Full width */
+    height: 680px;
+    padding: 20px; /* Some padding */
+    margin-left: 850px;
+    font-size: 20px;
+    text-align: justify;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.textbox-xacnhan{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 320px;
+}
+.xacnhan{
+    width: 200px;
+    height: 40px;
+}
